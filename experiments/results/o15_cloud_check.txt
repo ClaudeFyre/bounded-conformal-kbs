@@ -1,0 +1,10 @@
+sites 50, units 4382250; P(Y=0) = 0.050, P(Y=1) = 0.213, interior mass = 0.737
+criterion 3: interior mass 0.737 (>= 0.2), median kNN 90% width 0.718 (>= 0.1) -> True
+criterion 4: site-held-out AUC {'Y=0': 0.9568451551836312, 'Y=1': 0.9011750575498132} (>= 0.7) -> True
+criterion 1: P(Y=0) 0.050, P(Y=1) 0.213 (both >= 0.05) -> True
+criterion 5: 4382250 units over 50 sites -> True
+criterion 2: semantic clear / overcast states (reanalysis caveat recorded in PLAN) -> True
+criterion 6: Open-Meteo non-commercial, attribution to Open-Meteo and Copernicus ERA5 -> True
+
+**Candidate 1 (ERA5 cloud cover): MEETS the O1.5 criteria**
+(interior value resolution check: first distinct interior values [0.01 0.02 0.03 0.04 0.05])

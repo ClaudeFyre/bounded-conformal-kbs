@@ -1,0 +1,24 @@
+[m0 era5_cloud] model 1 seed 2 time 19s crps 0.11302586644887924 1: w_b=0.3858 cov=0.914 7: w_b=0.2803 cov=0.914 1b: w_b=0.2807 cov=0.911
+[m0 era5_cloud] model 1 seed 3 time 21s crps 0.11371176689863205 1: w_b=0.1893 cov=0.894 7: w_b=0.1782 cov=0.894 1b: w_b=0.1770 cov=0.896
+[m0 era5_cloud] model 1 seed 0 time 22s crps 0.1124185174703598 1: w_b=0.3134 cov=0.906 7: w_b=0.2368 cov=0.906 1b: w_b=0.2361 cov=0.905
+[m0 era5_cloud] model 1 seed 1 time 31s crps 0.10842111706733704 1: w_b=0.3203 cov=0.899 7: w_b=0.2331 cov=0.899 1b: w_b=0.2274 cov=0.900
+[m0 era5_cloud] model 1 seed 5 time 14s crps 0.11992929875850677 1: w_b=0.3493 cov=0.900 7: w_b=0.2460 cov=0.900 1b: w_b=0.2442 cov=0.897
+[m0 era5_cloud] model 1 seed 6 time 22s crps 0.11835423856973648 1: w_b=0.3339 cov=0.902 7: w_b=0.2509 cov=0.902 1b: w_b=0.2490 cov=0.901
+[m0 era5_cloud] model 1 seed 4 time 31s crps 0.10981962829828262 1: w_b=0.2234 cov=0.908 7: w_b=0.1921 cov=0.908 1b: w_b=0.1903 cov=0.905
+[m0 era5_cloud] model 1 seed 7 time 25s crps 0.12061000615358353 1: w_b=0.2968 cov=0.887 7: w_b=0.2260 cov=0.887 1b: w_b=0.2253 cov=0.883
+[m0 era5_cloud] model 2 seed 0 time 21s crps None 2: w_b=0.5392 cov=0.916 2_clipped: w_b=0.5337 cov=0.916
+[m0 era5_cloud] model 2 seed 2 time 12s crps None 2: w_b=0.6310 cov=0.915 2_clipped: w_b=0.6281 cov=0.915
+[m0 era5_cloud] model 2 seed 1 time 19s crps None 2: w_b=0.5473 cov=0.899 2_clipped: w_b=0.5464 cov=0.899
+[m0 era5_cloud] model 2 seed 3 time 13s crps None 2: w_b=0.6141 cov=0.897 2_clipped: w_b=0.6068 cov=0.897
+[m0 era5_cloud] model 2 seed 4 time 10s crps None 2: w_b=0.6749 cov=0.914 2_clipped: w_b=0.6643 cov=0.914
+[m0 era5_cloud] model 2 seed 6 time 7s crps None 2: w_b=0.6377 cov=0.877 2_clipped: w_b=0.5739 cov=0.877
+[m0 era5_cloud] model 3 seed 0 time 10s crps 0.1057925894856453 3: w_b=0.2120 cov=0.899
+[m0 era5_cloud] model 2 seed 7 time 15s crps None 2: w_b=0.5804 cov=0.897 2_clipped: w_b=0.5669 cov=0.897
+[m0 era5_cloud] model 2 seed 5 time 23s crps None 2: w_b=0.5141 cov=0.908 2_clipped: w_b=0.5113 cov=0.908
+[m0 era5_cloud] model 3 seed 1 time 34s crps 0.09997281432151794 3: w_b=0.2300 cov=0.901
+[m0 era5_cloud] model 3 seed 3 time 22s crps 0.1078922376036644 3: w_b=0.1817 cov=0.905
+[m0 era5_cloud] model 3 seed 2 time 32s crps 0.10845911502838135 3: w_b=0.2683 cov=0.906
+[m0 era5_cloud] model 3 seed 4 time 34s crps 0.10245907306671143 3: w_b=0.1851 cov=0.902
+[m0 era5_cloud] model 3 seed 6 time 16s crps 0.11106601357460022 3: w_b=0.2527 cov=0.899
+[m0 era5_cloud] model 3 seed 7 time 16s crps 0.11244712024927139 3: w_b=0.2218 cov=0.896
+[m0 era5_cloud] model 3 seed 5 time 27s crps 0.11371786892414093 3: w_b=0.2322 cov=0.891

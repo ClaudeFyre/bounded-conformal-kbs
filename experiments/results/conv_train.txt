@@ -1,0 +1,33 @@
+32 training runs
+[m0 seaice] model 1 seed 1 time 40s crps 0.03847896680235863 1: w_b=0.0830 cov=0.916 7: w_b=0.0607 cov=0.916 1b: w_b=0.0266 cov=0.905
+[m0 seaice] model 1 seed 0 time 48s crps 0.0379546694457531 1: w_b=0.0693 cov=0.899 7: w_b=0.0528 cov=0.899 1b: w_b=0.0232 cov=0.899
+[m0 seaice] model 1 seed 3 time 48s crps 0.04391416534781456 1: w_b=0.0752 cov=0.895 7: w_b=0.0554 cov=0.895 1b: w_b=0.0273 cov=0.895
+[m0 seaice] model 1 seed 2 time 48s crps 0.042466968297958374 1: w_b=0.0790 cov=0.902 7: w_b=0.0589 cov=0.902 1b: w_b=0.0362 cov=0.911
+[m0 seaice] model 1 seed 4 time 26s crps 0.04375971108675003 1: w_b=0.0716 cov=0.909 7: w_b=0.0568 cov=0.909 1b: w_b=0.0322 cov=0.908
+[m0 seaice] model 1 seed 7 time 40s crps 0.045568376779556274 1: w_b=0.0694 cov=0.896 7: w_b=0.0589 cov=0.896 1b: w_b=0.0433 cov=0.903
+[m0 seaice] model 1 seed 5 time 45s crps 0.043525367975234985 1: w_b=0.0925 cov=0.902 7: w_b=0.0670 cov=0.902 1b: w_b=0.0339 cov=0.909
+[m0 seaice] model 1 seed 6 time 46s crps 0.0397564172744751 1: w_b=0.0559 cov=0.900 7: w_b=0.0457 cov=0.900 1b: w_b=0.0218 cov=0.896
+[m0 seaice] model 3 seed 0 time 45s crps 0.03587315231561661 3: w_b=0.0106 cov=0.906
+[m0 seaice] model 3 seed 2 time 40s crps 0.0394749715924263 3: w_b=0.0151 cov=0.897
+[m0 seaice] model 3 seed 1 time 46s crps 0.03583751618862152 3: w_b=0.0142 cov=0.893
+[m0 seaice] model 3 seed 4 time 19s crps 0.04073980823159218 3: w_b=0.0135 cov=0.902
+[m0 seaice] model 3 seed 3 time 45s crps 0.03993495553731918 3: w_b=0.0147 cov=0.904
+[m0 seaice] model 3 seed 7 time 38s crps 0.04335212707519531 3: w_b=0.0151 cov=0.900
+[m0 seaice] model 3 seed 5 time 46s crps 0.04137076437473297 3: w_b=0.0156 cov=0.909
+[m0 seaice] model 3 seed 6 time 50s crps 0.03843308240175247 3: w_b=0.0111 cov=0.895
+[m0 resops] model 1 seed 0 time 50s crps 0.011742422357201576 1: w_b=0.0500 cov=0.907 7: w_b=0.0500 cov=0.907 1b: w_b=0.0200 cov=0.904
+[m0 resops] model 1 seed 1 time 10s crps 0.01801403984427452 1: w_b=0.1147 cov=0.916 7: w_b=0.1146 cov=0.916 1b: w_b=0.0783 cov=0.913
+[m0 resops] model 1 seed 4 time 14s crps 0.015338004566729069 1: w_b=0.0752 cov=0.899 7: w_b=0.0751 cov=0.899 1b: w_b=0.0435 cov=0.898
+[m0 resops] model 1 seed 5 time 22s crps 0.014127648435533047 1: w_b=0.0685 cov=0.902 7: w_b=0.0685 cov=0.902 1b: w_b=0.0475 cov=0.905
+[m0 resops] model 1 seed 6 time 17s crps 0.015596942976117134 1: w_b=0.0596 cov=0.900 7: w_b=0.0596 cov=0.900 1b: w_b=0.0399 cov=0.906
+[m0 resops] model 1 seed 2 time 49s crps 0.01204757485538721 1: w_b=0.0514 cov=0.899 7: w_b=0.0514 cov=0.899 1b: w_b=0.0235 cov=0.906
+[m0 resops] model 1 seed 3 time 50s crps 0.012766306288540363 1: w_b=0.0555 cov=0.894 7: w_b=0.0555 cov=0.894 1b: w_b=0.0245 cov=0.899
+[m0 resops] model 3 seed 0 time 18s crps 0.014510183595120907 3: w_b=0.0396 cov=0.900
+[m0 resops] model 1 seed 7 time 52s crps 0.011490766890347004 1: w_b=0.0499 cov=0.899 7: w_b=0.0499 cov=0.899 1b: w_b=0.0215 cov=0.900
+[m0 resops] model 3 seed 1 time 59s crps 0.012296582572162151 3: w_b=0.0210 cov=0.908
+[m0 resops] model 3 seed 2 time 58s crps 0.01204775832593441 3: w_b=0.0238 cov=0.909
+[m0 resops] model 3 seed 3 time 58s crps 0.01274485606700182 3: w_b=0.0263 cov=0.900
+[m0 resops] model 3 seed 5 time 35s crps 0.012770187109708786 3: w_b=0.0298 cov=0.906
+[m0 resops] model 3 seed 4 time 58s crps 0.01160331442952156 3: w_b=0.0199 cov=0.894
+[m0 resops] model 3 seed 6 time 46s crps 0.012033134698867798 3: w_b=0.0227 cov=0.892
+[m0 resops] model 3 seed 7 time 38s crps 0.011583754792809486 3: w_b=0.0196 cov=0.899

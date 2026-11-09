@@ -1,0 +1,33 @@
+32 training runs
+[m0 syn_outatom] model 1 seed 3 time 12s crps 0.1632574498653412 1: w_b=0.9079 cov=0.891 7: w_b=0.8925 cov=0.891 1b: w_b=0.8632 cov=0.891
+[m0 syn_outatom] model 1 seed 0 time 12s crps 0.1626921445131302 1: w_b=0.9008 cov=0.905 7: w_b=0.8892 cov=0.905 1b: w_b=0.8701 cov=0.902
+[m0 syn_outatom] model 1 seed 2 time 13s crps 0.16112279891967773 1: w_b=0.8770 cov=0.900 7: w_b=0.8674 cov=0.900 1b: w_b=0.8159 cov=0.898
+[m0 syn_outatom] model 1 seed 1 time 13s crps 0.1589382290840149 1: w_b=0.9926 cov=0.904 7: w_b=0.9228 cov=0.904 1b: w_b=0.9912 cov=0.902
+[m0 syn_outatom] model 1 seed 5 time 15s crps 0.15961511433124542 1: w_b=0.8825 cov=0.891 7: w_b=0.8741 cov=0.891 1b: w_b=0.8365 cov=0.896
+[m0 syn_outatom] model 1 seed 6 time 15s crps 0.15969474613666534 1: w_b=0.8837 cov=0.916 7: w_b=0.8672 cov=0.916 1b: w_b=0.8190 cov=0.916
+[m0 syn_outatom] model 1 seed 7 time 17s crps 0.15315406024456024 1: w_b=0.8722 cov=0.899 7: w_b=0.8597 cov=0.899 1b: w_b=0.7954 cov=0.903
+[m0 syn_outatom] model 1 seed 4 time 22s crps 0.16370713710784912 1: w_b=0.8850 cov=0.883 7: w_b=0.8735 cov=0.883 1b: w_b=0.8222 cov=0.888
+[m0 syn_outatom] model 2 seed 0 time 7s crps None 2: w_b=0.9932 cov=0.902 2_clipped: w_b=0.9924 cov=0.902
+[m0 syn_outatom] model 2 seed 1 time 9s crps None 2: w_b=1.0028 cov=0.908 2_clipped: w_b=0.9963 cov=0.908
+[m0 syn_outatom] model 2 seed 2 time 8s crps None 2: w_b=0.9911 cov=0.902 2_clipped: w_b=0.9906 cov=0.902
+[m0 syn_outatom] model 2 seed 3 time 6s crps None 2: w_b=0.9918 cov=0.893 2_clipped: w_b=0.9908 cov=0.893
+[m0 syn_outatom] model 2 seed 4 time 8s crps None 2: w_b=0.9880 cov=0.893 2_clipped: w_b=0.9872 cov=0.893
+[m0 syn_outatom] model 2 seed 5 time 10s crps None 2: w_b=0.9890 cov=0.895 2_clipped: w_b=0.9867 cov=0.895
+[m0 syn_outatom] model 2 seed 6 time 11s crps None 2: w_b=0.9931 cov=0.899 2_clipped: w_b=0.9929 cov=0.899
+[m0 syn_outatom] model 2 seed 7 time 13s crps None 2: w_b=0.9925 cov=0.914 2_clipped: w_b=0.9920 cov=0.914
+[m0 syn_outatom] model 3 seed 0 time 8s crps 0.15868200361728668 3: w_b=0.5418 cov=0.891
+[m0 syn_outatom] model 3 seed 1 time 10s crps 0.15490514039993286 3: w_b=0.5274 cov=0.889
+[m0 syn_outatom] model 3 seed 2 time 11s crps 0.1543612778186798 3: w_b=0.5876 cov=0.906
+[m0 syn_outatom] model 3 seed 3 time 10s crps 0.1590673327445984 3: w_b=0.5613 cov=0.896
+[m0 syn_outatom] model 3 seed 4 time 12s crps 0.1607007533311844 3: w_b=0.5366 cov=0.916
+[m0 syn_outatom] model 3 seed 5 time 11s crps 0.1549096703529358 3: w_b=0.5151 cov=0.908
+[m0 syn_outatom] model 3 seed 7 time 10s crps 0.1504606455564499 3: w_b=0.5239 cov=0.904
+[m0 syn_outatom] model 3 seed 6 time 15s crps 0.1553688794374466 3: w_b=0.5464 cov=0.905
+[m0 syn_outatom] model 6 seed 0 time 18s crps 0.1800459623336792 6: w_b=0.9970 cov=0.905
+[m0 syn_outatom] model 6 seed 1 time 14s crps 0.17609961330890656 6: w_b=1.0000 cov=0.918
+[m0 syn_outatom] model 6 seed 3 time 10s crps 0.1814095824956894 6: w_b=0.9981 cov=0.895
+[m0 syn_outatom] model 6 seed 2 time 14s crps 0.1763104647397995 6: w_b=0.9755 cov=0.897
+[m0 syn_outatom] model 6 seed 4 time 10s crps 0.17698445916175842 6: w_b=0.9921 cov=0.893
+[m0 syn_outatom] model 6 seed 5 time 12s crps 0.1760748028755188 6: w_b=0.9914 cov=0.895
+[m0 syn_outatom] model 6 seed 6 time 10s crps 0.17823801934719086 6: w_b=0.9922 cov=0.983
+[m0 syn_outatom] model 6 seed 7 time 9s crps 0.17452576756477356 6: w_b=0.9933 cov=0.904

@@ -1,0 +1,1106 @@
+{
+ "design": {
+  "cal_years": [
+   2010,
+   2014
+  ],
+  "control_years": [
+   2010,
+   2014
+  ],
+  "temporal_years": [
+   2015,
+   2019
+  ],
+  "n_cal": 2000,
+  "n_test": 2000,
+  "S": 128,
+  "eps": 0.05,
+  "alpha": 0.1,
+  "did_min": 0.02,
+  "p_max": 0.05,
+  "band": 0.02
+ },
+ "drift": {
+  "cal": {
+   "mean_y": 0.49849003553390503,
+   "boundary_share": 0.8535000085830688
+  },
+  "C": {
+   "mean_y": 0.47603997588157654,
+   "boundary_share": 0.8565000295639038
+  },
+  "T": {
+   "mean_y": 0.49121996760368347,
+   "boundary_share": 0.8414999842643738
+  }
+ },
+ "coverage": {
+  "gaussian": {
+   "C": {
+    "coverage": 0.9049500048160553,
+    "coverage_boundary": 0.9040210902690887,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   },
+   "T": {
+    "coverage": 0.9034000098705292,
+    "coverage_boundary": 0.9036914288997651,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   }
+  },
+  "trunc_star": {
+   "C": {
+    "coverage": 0.905349999666214,
+    "coverage_boundary": 0.9043863773345947,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   },
+   "T": {
+    "coverage": 0.906850004196167,
+    "coverage_boundary": 0.9076035916805267,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   }
+  },
+  "kumaraswamy": {
+   "C": {
+    "coverage": 0.9033999919891358,
+    "coverage_boundary": 0.9026815891265869,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   },
+   "T": {
+    "coverage": 0.8992500007152557,
+    "coverage_boundary": 0.9010336995124817,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   }
+  },
+  "trunc_gaussian": {
+   "C": {
+    "coverage": 0.903000009059906,
+    "coverage_boundary": 0.9031435728073121,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   },
+   "T": {
+    "coverage": 0.9013000011444092,
+    "coverage_boundary": 0.9033817827701569,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   }
+  },
+  "logit_normal": {
+   "C": {
+    "coverage": 0.9020499944686889,
+    "coverage_boundary": 0.9022684454917907,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   },
+   "T": {
+    "coverage": 0.902350002527237,
+    "coverage_boundary": 0.9039896667003632,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   }
+  },
+  "beta": {
+   "C": {
+    "coverage": 0.9019499957561493,
+    "coverage_boundary": 0.902205902338028,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   },
+   "T": {
+    "coverage": 0.9034000039100647,
+    "coverage_boundary": 0.9046379566192627,
+    "in_band_marginal": true,
+    "in_band_boundary": true
+   }
+  }
+ },
+ "did": {
+  "kumaraswamy": {
+   "did": [
+    -0.00711977481842041,
+    -0.004147946834564209,
+    0.0023473501205444336,
+    0.0029373764991760254,
+    -0.0023374557495117188,
+    0.0021864771842956543,
+    -0.008134782314300537,
+    -0.008849501609802246,
+    0.001174330711364746,
+    0.00876164436340332
+   ],
+   "mean": -0.0013182282447814942,
+   "p": 0.556640625,
+   "differential_failure": false,
+   "role": "primary"
+  },
+  "trunc_star": {
+   "did": [
+    0.0015951991081237793,
+    -0.002365410327911377,
+    0.002341926097869873,
+    0.014724254608154297,
+    0.0011764168739318848,
+    0.008524775505065918,
+    0.0006071925163269043,
+    -0.002284824848175049,
+    0.007578134536743164,
+    0.0035710930824279785
+   ],
+   "mean": 0.003546875715255737,
+   "p": 0.083984375,
+   "differential_failure": false,
+   "role": "primary"
+  },
+  "trunc_gaussian": {
+   "did": [
+    -0.009548485279083252,
+    0.007062971591949463,
+    -0.002341926097869873,
+    -0.0005899667739868164,
+    -0.0040877461433410645,
+    0.0010622143745422363,
+    0.0011834502220153809,
+    0.0018143057823181152,
+    0.008770883083343506,
+    0.0023530125617980957
+   ],
+   "mean": 0.0005678713321685791,
+   "p": 0.6953125,
+   "differential_failure": false,
+   "role": "secondary"
+  },
+  "logit_normal": {
+   "did": [
+    0.0011883378028869629,
+    -0.0023571252822875977,
+    8.225440979003906e-06,
+    0.01764810085296631,
+    0.00409698486328125,
+    0.0010870099067687988,
+    -0.006391644477844238,
+    0.0005582571029663086,
+    -0.001162111759185791,
+    0.005832791328430176
+   ],
+   "mean": 0.002050882577896118,
+   "p": 0.431640625,
+   "differential_failure": false,
+   "role": "secondary"
+  },
+  "beta": {
+   "did": [
+    0.007067680358886719,
+    0.0029442906379699707,
+    0.0005909204483032227,
+    0.013539135456085205,
+    -0.0035005807876586914,
+    -2.47955322265625e-05,
+    -0.004657924175262451,
+    0.0011320710182189941,
+    0.0023404955863952637,
+    0.008185863494873047
+   ],
+   "mean": 0.0027617156505584718,
+   "p": 0.193359375,
+   "differential_failure": false,
+   "role": "secondary"
+  }
+ },
+ "nontemporal": {
+  "rho_W_kum_T_mean": 8.754117869857206,
+  "rho_W_kum_T": [
+   -0.28897254171682213,
+   17.58199763224186,
+   9.81607270495233,
+   18.4141545374305,
+   -0.1687019133803999,
+   9.583562892194966,
+   6.30987752781286,
+   8.117917961361272,
+   10.269857099957575,
+   7.9054127977179265
+  ],
+  "trunc_wider_T": 10,
+  "n": 10
+ },
+ "P1_any_differential_failure": false,
+ "rows": [
+  {
+   "seed": 0,
+   "gaussian_C": {
+    "coverage": 0.8999999761581421,
+    "coverage_boundary": 0.9095154404640198,
+    "biw": 0.07071831077337265,
+    "n_test_boundary": 1713,
+    "q_boundary": 0.9169908165931702
+   },
+   "gaussian_T": {
+    "coverage": 0.8970000147819519,
+    "coverage_boundary": 0.9049316644668579,
+    "biw": 0.0695522353053093,
+    "n_test_boundary": 1683,
+    "q_boundary": 0.9169908165931702
+   },
+   "trunc_star_C": {
+    "coverage": 0.890999972820282,
+    "coverage_boundary": 0.8990076184272766,
+    "biw": 0.17297029495239258,
+    "n_test_boundary": 1713,
+    "q_boundary": 1.017565369606018
+   },
+   "trunc_star_T": {
+    "coverage": 0.890999972820282,
+    "coverage_boundary": 0.8960190415382385,
+    "biw": 0.1718086451292038,
+    "n_test_boundary": 1683,
+    "q_boundary": 1.017565369606018
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.902999997138977,
+    "coverage_boundary": 0.9100992679595947,
+    "biw": 0.07025667279958725,
+    "n_test_boundary": 1713,
+    "q_boundary": 0.8973250985145569
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.8865000009536743,
+    "coverage_boundary": 0.8983957171440125,
+    "biw": 0.06975322216749191,
+    "n_test_boundary": 1683,
+    "q_boundary": 0.8973250985145569
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.9020000100135803,
+    "coverage_boundary": 0.9071803689002991,
+    "biw": 0.06679174304008484,
+    "n_test_boundary": 1713,
+    "q_boundary": 0.9877292513847351
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.8849999904632568,
+    "coverage_boundary": 0.893048107624054,
+    "biw": 0.06641325354576111,
+    "n_test_boundary": 1683,
+    "q_boundary": 0.9877292513847351
+   },
+   "logit_normal_C": {
+    "coverage": 0.8989999890327454,
+    "coverage_boundary": 0.9095154404640198,
+    "biw": 0.06879457831382751,
+    "n_test_boundary": 1713,
+    "q_boundary": 0.975896418094635
+   },
+   "logit_normal_T": {
+    "coverage": 0.8930000066757202,
+    "coverage_boundary": 0.9061200022697449,
+    "biw": 0.0680634155869484,
+    "n_test_boundary": 1683,
+    "q_boundary": 0.975896418094635
+   },
+   "beta_C": {
+    "coverage": 0.8974999785423279,
+    "coverage_boundary": 0.9060128331184387,
+    "biw": 0.0657401978969574,
+    "n_test_boundary": 1713,
+    "q_boundary": 0.961532711982727
+   },
+   "beta_T": {
+    "coverage": 0.8985000252723694,
+    "coverage_boundary": 0.9084967374801636,
+    "biw": 0.06515788286924362,
+    "n_test_boundary": 1683,
+    "q_boundary": 0.961532711982727
+   }
+  },
+  {
+   "seed": 1,
+   "gaussian_C": {
+    "coverage": 0.9079999923706055,
+    "coverage_boundary": 0.9027695655822754,
+    "biw": 0.07847899943590164,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9399421215057373
+   },
+   "gaussian_T": {
+    "coverage": 0.9035000205039978,
+    "coverage_boundary": 0.9024245738983154,
+    "biw": 0.07726361602544785,
+    "n_test_boundary": 1691,
+    "q_boundary": 0.9399421215057373
+   },
+   "trunc_star_C": {
+    "coverage": 0.9089999794960022,
+    "coverage_boundary": 0.9027695655822754,
+    "biw": 0.15817245841026306,
+    "n_test_boundary": 1697,
+    "q_boundary": 1.016460657119751
+   },
+   "trunc_star_T": {
+    "coverage": 0.9020000100135803,
+    "coverage_boundary": 0.900059163570404,
+    "biw": 0.15577460825443268,
+    "n_test_boundary": 1691,
+    "q_boundary": 1.016460657119751
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.9024999737739563,
+    "coverage_boundary": 0.9004124999046326,
+    "biw": 0.06541163474321365,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.8991243243217468
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.8964999914169312,
+    "coverage_boundary": 0.8959195613861084,
+    "biw": 0.06367912888526917,
+    "n_test_boundary": 1691,
+    "q_boundary": 0.8991243243217468
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.8974999785423279,
+    "coverage_boundary": 0.8933411836624146,
+    "biw": 0.06480195373296738,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9647849202156067
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.9004999995231628,
+    "coverage_boundary": 0.900059163570404,
+    "biw": 0.0641196221113205,
+    "n_test_boundary": 1691,
+    "q_boundary": 0.9647849202156067
+   },
+   "logit_normal_C": {
+    "coverage": 0.906499981880188,
+    "coverage_boundary": 0.905126690864563,
+    "biw": 0.061214521527290344,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9631038904190063
+   },
+   "logit_normal_T": {
+    "coverage": 0.9014999866485596,
+    "coverage_boundary": 0.9024245738983154,
+    "biw": 0.06079491972923279,
+    "n_test_boundary": 1691,
+    "q_boundary": 0.9631038904190063
+   },
+   "beta_C": {
+    "coverage": 0.9010000228881836,
+    "coverage_boundary": 0.8992339372634888,
+    "biw": 0.06344687938690186,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.951034426689148
+   },
+   "beta_T": {
+    "coverage": 0.8989999890327454,
+    "coverage_boundary": 0.9018332362174988,
+    "biw": 0.06256037950515747,
+    "n_test_boundary": 1691,
+    "q_boundary": 0.951034426689148
+   }
+  },
+  {
+   "seed": 2,
+   "gaussian_C": {
+    "coverage": 0.9125000238418579,
+    "coverage_boundary": 0.9080796241760254,
+    "biw": 0.07662560045719147,
+    "n_test_boundary": 1708,
+    "q_boundary": 0.9388976693153381
+   },
+   "gaussian_T": {
+    "coverage": 0.9100000262260437,
+    "coverage_boundary": 0.9108391404151917,
+    "biw": 0.07416460663080215,
+    "n_test_boundary": 1716,
+    "q_boundary": 0.9388976693153381
+   },
+   "trunc_star_C": {
+    "coverage": 0.9110000133514404,
+    "coverage_boundary": 0.9057376980781555,
+    "biw": 0.18628308176994324,
+    "n_test_boundary": 1708,
+    "q_boundary": 1.0330471992492676
+   },
+   "trunc_star_T": {
+    "coverage": 0.9100000262260437,
+    "coverage_boundary": 0.9108391404151917,
+    "biw": 0.18132728338241577,
+    "n_test_boundary": 1716,
+    "q_boundary": 1.0330471992492676
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.9079999923706055,
+    "coverage_boundary": 0.904566764831543,
+    "biw": 0.06861084699630737,
+    "n_test_boundary": 1708,
+    "q_boundary": 0.9992380738258362
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.9129999876022339,
+    "coverage_boundary": 0.9096736311912537,
+    "biw": 0.06688455492258072,
+    "n_test_boundary": 1716,
+    "q_boundary": 0.9992380738258362
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.9100000262260437,
+    "coverage_boundary": 0.9104215502738953,
+    "biw": 0.06683627516031265,
+    "n_test_boundary": 1708,
+    "q_boundary": 1.0484275817871094
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.906499981880188,
+    "coverage_boundary": 0.9108391404151917,
+    "biw": 0.06556791812181473,
+    "n_test_boundary": 1716,
+    "q_boundary": 1.0484275817871094
+   },
+   "logit_normal_C": {
+    "coverage": 0.9079999923706055,
+    "coverage_boundary": 0.9063231945037842,
+    "biw": 0.061504438519477844,
+    "n_test_boundary": 1708,
+    "q_boundary": 0.9826575517654419
+   },
+   "logit_normal_T": {
+    "coverage": 0.9125000238418579,
+    "coverage_boundary": 0.9090909361839294,
+    "biw": 0.0603807270526886,
+    "n_test_boundary": 1716,
+    "q_boundary": 0.9826575517654419
+   },
+   "beta_C": {
+    "coverage": 0.9085000157356262,
+    "coverage_boundary": 0.9063231945037842,
+    "biw": 0.06554879248142242,
+    "n_test_boundary": 1708,
+    "q_boundary": 1.006101369857788
+   },
+   "beta_T": {
+    "coverage": 0.9120000004768372,
+    "coverage_boundary": 0.9096736311912537,
+    "biw": 0.064210906624794,
+    "n_test_boundary": 1716,
+    "q_boundary": 1.006101369857788
+   }
+  },
+  {
+   "seed": 3,
+   "gaussian_C": {
+    "coverage": 0.8830000162124634,
+    "coverage_boundary": 0.8783068656921387,
+    "biw": 0.08104629814624786,
+    "n_test_boundary": 1701,
+    "q_boundary": 0.9372619986534119
+   },
+   "gaussian_T": {
+    "coverage": 0.887499988079071,
+    "coverage_boundary": 0.879858672618866,
+    "biw": 0.08048679679632187,
+    "n_test_boundary": 1698,
+    "q_boundary": 0.9372619986534119
+   },
+   "trunc_star_C": {
+    "coverage": 0.8840000033378601,
+    "coverage_boundary": 0.8788947463035583,
+    "biw": 0.14586393535137177,
+    "n_test_boundary": 1701,
+    "q_boundary": 1.0094141960144043
+   },
+   "trunc_star_T": {
+    "coverage": 0.9004999995231628,
+    "coverage_boundary": 0.8951708078384399,
+    "biw": 0.1442008763551712,
+    "n_test_boundary": 1698,
+    "q_boundary": 1.0094141960144043
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.8794999718666077,
+    "coverage_boundary": 0.8741916418075562,
+    "biw": 0.06711572408676147,
+    "n_test_boundary": 1701,
+    "q_boundary": 0.8960751295089722
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.8799999952316284,
+    "coverage_boundary": 0.8786808252334595,
+    "biw": 0.0656658336520195,
+    "n_test_boundary": 1698,
+    "q_boundary": 0.8960751295089722
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.8820000290870667,
+    "coverage_boundary": 0.877718985080719,
+    "biw": 0.06173710897564888,
+    "n_test_boundary": 1701,
+    "q_boundary": 0.9716442227363586
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.8794999718666077,
+    "coverage_boundary": 0.8786808252334595,
+    "biw": 0.061151716858148575,
+    "n_test_boundary": 1698,
+    "q_boundary": 0.9716442227363586
+   },
+   "logit_normal_C": {
+    "coverage": 0.8744999766349792,
+    "coverage_boundary": 0.8671369552612305,
+    "biw": 0.06469041109085083,
+    "n_test_boundary": 1701,
+    "q_boundary": 0.9442018866539001
+   },
+   "logit_normal_T": {
+    "coverage": 0.8865000009536743,
+    "coverage_boundary": 0.8863368630409241,
+    "biw": 0.0636945590376854,
+    "n_test_boundary": 1698,
+    "q_boundary": 0.9442018866539001
+   },
+   "beta_C": {
+    "coverage": 0.8784999847412109,
+    "coverage_boundary": 0.8747795224189758,
+    "biw": 0.06638981401920319,
+    "n_test_boundary": 1701,
+    "q_boundary": 0.9342527985572815
+   },
+   "beta_T": {
+    "coverage": 0.8914999961853027,
+    "coverage_boundary": 0.8898704648017883,
+    "biw": 0.06499049067497253,
+    "n_test_boundary": 1698,
+    "q_boundary": 0.9342527985572815
+   }
+  },
+  {
+   "seed": 4,
+   "gaussian_C": {
+    "coverage": 0.9129999876022339,
+    "coverage_boundary": 0.9065420627593994,
+    "biw": 0.06624794751405716,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9369878768920898
+   },
+   "gaussian_T": {
+    "coverage": 0.9185000061988831,
+    "coverage_boundary": 0.9145699143409729,
+    "biw": 0.0651642382144928,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.9369878768920898
+   },
+   "trunc_star_C": {
+    "coverage": 0.9160000085830688,
+    "coverage_boundary": 0.9100467562675476,
+    "biw": 0.16551461815834045,
+    "n_test_boundary": 1712,
+    "q_boundary": 1.0299793481826782
+   },
+   "trunc_star_T": {
+    "coverage": 0.9210000038146973,
+    "coverage_boundary": 0.919251024723053,
+    "biw": 0.16346685588359833,
+    "n_test_boundary": 1709,
+    "q_boundary": 1.0299793481826782
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.9114999771118164,
+    "coverage_boundary": 0.9082943797111511,
+    "biw": 0.0659782662987709,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9031010270118713
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.9125000238418579,
+    "coverage_boundary": 0.9139847755432129,
+    "biw": 0.06527417153120041,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.9031010270118713
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.9160000085830688,
+    "coverage_boundary": 0.9112149477005005,
+    "biw": 0.0672580674290657,
+    "n_test_boundary": 1712,
+    "q_boundary": 1.1367816925048828
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.9150000214576721,
+    "coverage_boundary": 0.9151550531387329,
+    "biw": 0.0666956976056099,
+    "n_test_boundary": 1709,
+    "q_boundary": 1.1367816925048828
+   },
+   "logit_normal_C": {
+    "coverage": 0.9089999794960022,
+    "coverage_boundary": 0.9071261882781982,
+    "biw": 0.06575704365968704,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.98000568151474
+   },
+   "logit_normal_T": {
+    "coverage": 0.9150000214576721,
+    "coverage_boundary": 0.919251024723053,
+    "biw": 0.06551139801740646,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.98000568151474
+   },
+   "beta_C": {
+    "coverage": 0.9164999723434448,
+    "coverage_boundary": 0.9123831987380981,
+    "biw": 0.06339474022388458,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9574803113937378
+   },
+   "beta_T": {
+    "coverage": 0.9160000085830688,
+    "coverage_boundary": 0.9169104695320129,
+    "biw": 0.06321579217910767,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.9574803113937378
+   }
+  },
+  {
+   "seed": 5,
+   "gaussian_C": {
+    "coverage": 0.8865000009536743,
+    "coverage_boundary": 0.8855278491973877,
+    "biw": 0.08125154674053192,
+    "n_test_boundary": 1686,
+    "q_boundary": 0.9360081553459167
+   },
+   "gaussian_T": {
+    "coverage": 0.8955000042915344,
+    "coverage_boundary": 0.8989546895027161,
+    "biw": 0.07701557129621506,
+    "n_test_boundary": 1722,
+    "q_boundary": 0.9360081553459167
+   },
+   "trunc_star_C": {
+    "coverage": 0.8945000171661377,
+    "coverage_boundary": 0.8944246768951416,
+    "biw": 0.15765424072742462,
+    "n_test_boundary": 1686,
+    "q_boundary": 1.010266661643982
+   },
+   "trunc_star_T": {
+    "coverage": 0.9114999771118164,
+    "coverage_boundary": 0.9163762927055359,
+    "biw": 0.15406116843223572,
+    "n_test_boundary": 1722,
+    "q_boundary": 1.010266661643982
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.8889999985694885,
+    "coverage_boundary": 0.892052173614502,
+    "biw": 0.07184210419654846,
+    "n_test_boundary": 1686,
+    "q_boundary": 0.9236897826194763
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.9039999842643738,
+    "coverage_boundary": 0.907665491104126,
+    "biw": 0.06963473558425903,
+    "n_test_boundary": 1722,
+    "q_boundary": 0.9236897826194763
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.8889999985694885,
+    "coverage_boundary": 0.890272855758667,
+    "biw": 0.06616237759590149,
+    "n_test_boundary": 1686,
+    "q_boundary": 0.9617922306060791
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.902999997138977,
+    "coverage_boundary": 0.9047619104385376,
+    "biw": 0.06492121517658234,
+    "n_test_boundary": 1722,
+    "q_boundary": 0.9617922306060791
+   },
+   "logit_normal_C": {
+    "coverage": 0.8859999775886536,
+    "coverage_boundary": 0.8890866041183472,
+    "biw": 0.06811349093914032,
+    "n_test_boundary": 1686,
+    "q_boundary": 0.9764180183410645
+   },
+   "logit_normal_T": {
+    "coverage": 0.8989999890327454,
+    "coverage_boundary": 0.9036004543304443,
+    "biw": 0.06640635430812836,
+    "n_test_boundary": 1722,
+    "q_boundary": 0.9764180183410645
+   },
+   "beta_C": {
+    "coverage": 0.8834999799728394,
+    "coverage_boundary": 0.8867141008377075,
+    "biw": 0.06929740309715271,
+    "n_test_boundary": 1686,
+    "q_boundary": 0.948451578617096
+   },
+   "beta_T": {
+    "coverage": 0.8970000147819519,
+    "coverage_boundary": 0.9001161456108093,
+    "biw": 0.06794600188732147,
+    "n_test_boundary": 1722,
+    "q_boundary": 0.948451578617096
+   }
+  },
+  {
+   "seed": 6,
+   "gaussian_C": {
+    "coverage": 0.9150000214576721,
+    "coverage_boundary": 0.9154025912284851,
+    "biw": 0.07403993606567383,
+    "n_test_boundary": 1714,
+    "q_boundary": 0.9445660710334778
+   },
+   "gaussian_T": {
+    "coverage": 0.909500002861023,
+    "coverage_boundary": 0.9087739586830139,
+    "biw": 0.07107460498809814,
+    "n_test_boundary": 1721,
+    "q_boundary": 0.9445660710334778
+   },
+   "trunc_star_C": {
+    "coverage": 0.9089999794960022,
+    "coverage_boundary": 0.9089848399162292,
+    "biw": 0.1719730645418167,
+    "n_test_boundary": 1714,
+    "q_boundary": 1.0230528116226196
+   },
+   "trunc_star_T": {
+    "coverage": 0.9045000076293945,
+    "coverage_boundary": 0.902963399887085,
+    "biw": 0.16832789778709412,
+    "n_test_boundary": 1721,
+    "q_boundary": 1.0230528116226196
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.9150000214576721,
+    "coverage_boundary": 0.9154025912284851,
+    "biw": 0.06744792312383652,
+    "n_test_boundary": 1714,
+    "q_boundary": 0.9313334822654724
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.8964999914169312,
+    "coverage_boundary": 0.9006391763687134,
+    "biw": 0.06658988445997238,
+    "n_test_boundary": 1721,
+    "q_boundary": 0.9313334822654724
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.9085000157356262,
+    "coverage_boundary": 0.9101517200469971,
+    "biw": 0.06738653033971786,
+    "n_test_boundary": 1714,
+    "q_boundary": 0.9636019468307495
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.902999997138977,
+    "coverage_boundary": 0.9047065377235413,
+    "biw": 0.06645616888999939,
+    "n_test_boundary": 1721,
+    "q_boundary": 0.9636019468307495
+   },
+   "logit_normal_C": {
+    "coverage": 0.9135000109672546,
+    "coverage_boundary": 0.9154025912284851,
+    "biw": 0.06158454716205597,
+    "n_test_boundary": 1714,
+    "q_boundary": 0.9570757150650024
+   },
+   "logit_normal_T": {
+    "coverage": 0.9039999842643738,
+    "coverage_boundary": 0.9023823142051697,
+    "biw": 0.06105772405862808,
+    "n_test_boundary": 1721,
+    "q_boundary": 0.9570757150650024
+   },
+   "beta_C": {
+    "coverage": 0.9129999876022339,
+    "coverage_boundary": 0.917736291885376,
+    "biw": 0.06774236261844635,
+    "n_test_boundary": 1714,
+    "q_boundary": 0.9595877528190613
+   },
+   "beta_T": {
+    "coverage": 0.906000018119812,
+    "coverage_boundary": 0.9064497351646423,
+    "biw": 0.06706728786230087,
+    "n_test_boundary": 1721,
+    "q_boundary": 0.9595877528190613
+   }
+  },
+  {
+   "seed": 7,
+   "gaussian_C": {
+    "coverage": 0.9085000157356262,
+    "coverage_boundary": 0.9030373692512512,
+    "biw": 0.07156341522932053,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9358186721801758
+   },
+   "gaussian_T": {
+    "coverage": 0.9110000133514404,
+    "coverage_boundary": 0.9092516303062439,
+    "biw": 0.06980212777853012,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9358186721801758
+   },
+   "trunc_star_C": {
+    "coverage": 0.9154999852180481,
+    "coverage_boundary": 0.9112149477005005,
+    "biw": 0.17747679352760315,
+    "n_test_boundary": 1712,
+    "q_boundary": 1.0346431732177734
+   },
+   "trunc_star_T": {
+    "coverage": 0.9160000085830688,
+    "coverage_boundary": 0.9151443839073181,
+    "biw": 0.1765885353088379,
+    "n_test_boundary": 1697,
+    "q_boundary": 1.0346431732177734
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.9039999842643738,
+    "coverage_boundary": 0.9018691778182983,
+    "biw": 0.06390094757080078,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9348414540290833
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.8930000066757202,
+    "coverage_boundary": 0.8992339372634888,
+    "biw": 0.06413564831018448,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9348414540290833
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.9070000052452087,
+    "coverage_boundary": 0.9082943797111511,
+    "biw": 0.056978557258844376,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9950025677680969
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.9085000157356262,
+    "coverage_boundary": 0.9163229465484619,
+    "biw": 0.0569397509098053,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9950025677680969
+   },
+   "logit_normal_C": {
+    "coverage": 0.9020000100135803,
+    "coverage_boundary": 0.8995327353477478,
+    "biw": 0.06344851851463318,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9670091271400452
+   },
+   "logit_normal_T": {
+    "coverage": 0.9010000228881836,
+    "coverage_boundary": 0.9063052535057068,
+    "biw": 0.06420223414897919,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.9670091271400452
+   },
+   "beta_C": {
+    "coverage": 0.9004999995231628,
+    "coverage_boundary": 0.8977803587913513,
+    "biw": 0.06414619833230972,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.956811249256134
+   },
+   "beta_T": {
+    "coverage": 0.8999999761581421,
+    "coverage_boundary": 0.905126690864563,
+    "biw": 0.06480970233678818,
+    "n_test_boundary": 1697,
+    "q_boundary": 0.956811249256134
+   }
+  },
+  {
+   "seed": 8,
+   "gaussian_C": {
+    "coverage": 0.9035000205039978,
+    "coverage_boundary": 0.9075482487678528,
+    "biw": 0.0743817538022995,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.9033501148223877
+   },
+   "gaussian_T": {
+    "coverage": 0.8945000171661377,
+    "coverage_boundary": 0.8985422849655151,
+    "biw": 0.07465542107820511,
+    "n_test_boundary": 1715,
+    "q_boundary": 0.9033501148223877
+   },
+   "trunc_star_C": {
+    "coverage": 0.9035000205039978,
+    "coverage_boundary": 0.9081333875656128,
+    "biw": 0.19235055148601532,
+    "n_test_boundary": 1709,
+    "q_boundary": 1.0397051572799683
+   },
+   "trunc_star_T": {
+    "coverage": 0.9010000228881836,
+    "coverage_boundary": 0.9067055583000183,
+    "biw": 0.19316112995147705,
+    "n_test_boundary": 1715,
+    "q_boundary": 1.0397051572799683
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.906000018119812,
+    "coverage_boundary": 0.9052077531814575,
+    "biw": 0.06646633893251419,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.8914600610733032
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.8980000019073486,
+    "coverage_boundary": 0.8973761200904846,
+    "biw": 0.06698841601610184,
+    "n_test_boundary": 1715,
+    "q_boundary": 0.8914600610733032
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.8985000252723694,
+    "coverage_boundary": 0.9005266427993774,
+    "biw": 0.06988655030727386,
+    "n_test_boundary": 1709,
+    "q_boundary": 1.0000334978103638
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.9020000100135803,
+    "coverage_boundary": 0.9002915620803833,
+    "biw": 0.06994914263486862,
+    "n_test_boundary": 1715,
+    "q_boundary": 1.0000334978103638
+   },
+   "logit_normal_C": {
+    "coverage": 0.9045000076293945,
+    "coverage_boundary": 0.9063779711723328,
+    "biw": 0.06520504504442215,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.9527789950370789
+   },
+   "logit_normal_T": {
+    "coverage": 0.8974999785423279,
+    "coverage_boundary": 0.8962098956108093,
+    "biw": 0.06593892723321915,
+    "n_test_boundary": 1715,
+    "q_boundary": 0.9527789950370789
+   },
+   "beta_C": {
+    "coverage": 0.9035000205039978,
+    "coverage_boundary": 0.9052077531814575,
+    "biw": 0.06787426024675369,
+    "n_test_boundary": 1709,
+    "q_boundary": 0.9448257088661194
+   },
+   "beta_T": {
+    "coverage": 0.8995000123977661,
+    "coverage_boundary": 0.8985422849655151,
+    "biw": 0.06870047748088837,
+    "n_test_boundary": 1715,
+    "q_boundary": 0.9448257088661194
+   }
+  },
+  {
+   "seed": 9,
+   "gaussian_C": {
+    "coverage": 0.9194999933242798,
+    "coverage_boundary": 0.923481285572052,
+    "biw": 0.07655339688062668,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9234338998794556
+   },
+   "gaussian_T": {
+    "coverage": 0.9070000052452087,
+    "coverage_boundary": 0.9087677597999573,
+    "biw": 0.0742291659116745,
+    "n_test_boundary": 1688,
+    "q_boundary": 0.9234338998794556
+   },
+   "trunc_star_C": {
+    "coverage": 0.9200000166893005,
+    "coverage_boundary": 0.9246495366096497,
+    "biw": 0.18748082220554352,
+    "n_test_boundary": 1712,
+    "q_boundary": 1.0382949113845825
+   },
+   "trunc_star_T": {
+    "coverage": 0.9110000133514404,
+    "coverage_boundary": 0.9135071039199829,
+    "biw": 0.18299052119255066,
+    "n_test_boundary": 1688,
+    "q_boundary": 1.0382949113845825
+   },
+   "kumaraswamy_C": {
+    "coverage": 0.9154999852180481,
+    "coverage_boundary": 0.9147196412086487,
+    "biw": 0.06958658248186111,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9169015288352966
+   },
+   "kumaraswamy_T": {
+    "coverage": 0.9125000238418579,
+    "coverage_boundary": 0.9087677597999573,
+    "biw": 0.06836104393005371,
+    "n_test_boundary": 1688,
+    "q_boundary": 0.9169015288352966
+   },
+   "trunc_gaussian_C": {
+    "coverage": 0.9194999933242798,
+    "coverage_boundary": 0.9223130941390991,
+    "biw": 0.06964608281850815,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.99787837266922
+   },
+   "trunc_gaussian_T": {
+    "coverage": 0.9100000262260437,
+    "coverage_boundary": 0.9099525809288025,
+    "biw": 0.06865188479423523,
+    "n_test_boundary": 1688,
+    "q_boundary": 0.99787837266922
+   },
+   "logit_normal_C": {
+    "coverage": 0.9175000190734863,
+    "coverage_boundary": 0.9170560836791992,
+    "biw": 0.06764919310808182,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9746171236038208
+   },
+   "logit_normal_T": {
+    "coverage": 0.9135000109672546,
+    "coverage_boundary": 0.9081753492355347,
+    "biw": 0.06630971282720566,
+    "n_test_boundary": 1688,
+    "q_boundary": 0.9746171236038208
+   },
+   "beta_C": {
+    "coverage": 0.9169999957084656,
+    "coverage_boundary": 0.9158878326416016,
+    "biw": 0.07033214718103409,
+    "n_test_boundary": 1712,
+    "q_boundary": 0.9639847874641418
+   },
+   "beta_T": {
+    "coverage": 0.9144999980926514,
+    "coverage_boundary": 0.9093601703643799,
+    "biw": 0.06929290294647217,
+    "n_test_boundary": 1688,
+    "q_boundary": 0.9639847874641418
+   }
+  }
+ ]
+}

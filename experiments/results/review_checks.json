@@ -1,0 +1,522 @@
+{
+  "R1_fit_quality": {
+    "cells": [
+      {
+        "dataset": "syn_full",
+        "family": "kumaraswamy",
+        "seeds": 10,
+        "dval_mean": 0.18947319984436034,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.04530220627784729,
+        "dylp_p": 0.001953125,
+        "rho_raw": 4.369862031011668,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 4.369863419105705,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_full",
+        "family": "beta",
+        "seeds": 10,
+        "dval_mean": -0.003005361557006836,
+        "dval_p": 0.921875,
+        "dylp_mean": 0.04589439034461975,
+        "dylp_p": 0.001953125,
+        "rho_raw": 4.68552782589849,
+        "rho_raw_p": 0.00390625,
+        "rho_feas": 4.68552849894791,
+        "fits_worse": false,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_full",
+        "family": "logit_normal",
+        "seeds": 10,
+        "dval_mean": 0.21337127387523652,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.05391561985015869,
+        "dylp_p": 0.001953125,
+        "rho_raw": 5.626027803890033,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 5.626026351473353,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_full",
+        "family": "trunc_gaussian",
+        "seeds": 10,
+        "dval_mean": -0.44872398376464845,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.019892168045043946,
+        "dylp_p": 0.10546875,
+        "rho_raw": 2.560782326935219,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 2.560780920875015,
+        "fits_worse": false,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_extreme",
+        "family": "kumaraswamy",
+        "seeds": 10,
+        "dval_mean": 0.2528233528137207,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.09486340284347534,
+        "dylp_p": 0.001953125,
+        "rho_raw": 4.666941536081454,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 4.66694368556672,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_extreme",
+        "family": "beta",
+        "seeds": 10,
+        "dval_mean": 0.10135570168495178,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.09920519590377808,
+        "dylp_p": 0.001953125,
+        "rho_raw": 6.081109050814652,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 6.081111239593034,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_extreme",
+        "family": "logit_normal",
+        "seeds": 10,
+        "dval_mean": 0.23924901485443115,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.09559799432754516,
+        "dylp_p": 0.001953125,
+        "rho_raw": 6.400065370439272,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 6.40006753270534,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "syn_extreme",
+        "family": "trunc_gaussian",
+        "seeds": 10,
+        "dval_mean": -0.6661422550678253,
+        "dval_p": 0.001953125,
+        "dylp_mean": 0.07984906435012817,
+        "dylp_p": 0.001953125,
+        "rho_raw": 3.541204502287064,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 3.5412055985557376,
+        "fits_worse": false,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "bucket",
+        "family": "kumaraswamy",
+        "seeds": 10,
+        "dval_mean": -0.00206030011177063,
+        "dval_p": 0.845703125,
+        "dylp_mean": -0.04162723422050476,
+        "dylp_p": 0.001953125,
+        "rho_raw": -7.718279522213044,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": -7.52369549387388,
+        "fits_worse": false,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "bucket",
+        "family": "beta",
+        "seeds": 10,
+        "dval_mean": -0.0019080698490142821,
+        "dval_p": 0.556640625,
+        "dylp_mean": -0.045538914203643796,
+        "dylp_p": 0.001953125,
+        "rho_raw": -12.033559751682589,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": -10.157021922710921,
+        "fits_worse": false,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "bucket",
+        "family": "logit_normal",
+        "seeds": 10,
+        "dval_mean": 0.11287288665771485,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.03812021017074585,
+        "dylp_p": 0.001953125,
+        "rho_raw": -11.556055502137221,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": -9.536277001771746,
+        "fits_worse": true,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": true
+      },
+      {
+        "dataset": "bucket",
+        "family": "trunc_gaussian",
+        "seeds": 10,
+        "dval_mean": -0.37686542272567747,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.015541481971740722,
+        "dylp_p": 0.009765625,
+        "rho_raw": -1.6405339155006065,
+        "rho_raw_p": 0.083984375,
+        "rho_feas": -2.2094902601027226,
+        "fits_worse": false,
+        "sig_widen": false,
+        "sig_narrow": false,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "seaice",
+        "family": "kumaraswamy",
+        "seeds": 10,
+        "dval_mean": 2.377192974090576,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.5604956388473511,
+        "dylp_p": 0.001953125,
+        "rho_raw": 7.465715952336395,
+        "rho_raw_p": 0.009765625,
+        "rho_feas": -7.804839152477679,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "seaice",
+        "family": "beta",
+        "seeds": 10,
+        "dval_mean": 2.325813722610474,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.5001864194869995,
+        "dylp_p": 0.001953125,
+        "rho_raw": 10.776813677738765,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": -1.6050934325660635,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "seaice",
+        "family": "logit_normal",
+        "seeds": 10,
+        "dval_mean": 2.4309818506240846,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.48603148460388185,
+        "dylp_p": 0.001953125,
+        "rho_raw": 12.660392502464317,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": 1.4729053754573604,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "seaice",
+        "family": "trunc_gaussian",
+        "seeds": 10,
+        "dval_mean": 1.8580371618270874,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.6973855257034302,
+        "dylp_p": 0.001953125,
+        "rho_raw": 10.094552534858916,
+        "rho_raw_p": 0.009765625,
+        "rho_feas": -11.168812369507657,
+        "fits_worse": true,
+        "sig_widen": false,
+        "sig_narrow": true,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "resops",
+        "family": "kumaraswamy",
+        "seeds": 10,
+        "dval_mean": 5.533227753639221,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.44936336278915406,
+        "dylp_p": 0.001953125,
+        "rho_raw": -102.5852786994088,
+        "rho_raw_p": 0.001953125,
+        "rho_feas": -102.60492565425521,
+        "fits_worse": true,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": true
+      },
+      {
+        "dataset": "resops",
+        "family": "beta",
+        "seeds": 10,
+        "dval_mean": 0.5635179817676544,
+        "dval_p": 0.001953125,
+        "dylp_mean": -0.09724535942077636,
+        "dylp_p": 0.009765625,
+        "rho_raw": -22.06920645598792,
+        "rho_raw_p": 0.005859375,
+        "rho_feas": -22.03004229823592,
+        "fits_worse": true,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": true
+      },
+      {
+        "dataset": "resops",
+        "family": "logit_normal",
+        "seeds": 10,
+        "dval_mean": 0.07904180288314819,
+        "dval_p": 0.16015625,
+        "dylp_mean": -0.005630087852478027,
+        "dylp_p": 0.625,
+        "rho_raw": -11.590325684547276,
+        "rho_raw_p": 0.02734375,
+        "rho_feas": -11.590993906463764,
+        "fits_worse": false,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": false
+      },
+      {
+        "dataset": "resops",
+        "family": "trunc_gaussian",
+        "seeds": 10,
+        "dval_mean": -0.026654517650604247,
+        "dval_p": 0.625,
+        "dylp_mean": -0.03195197582244873,
+        "dylp_p": 0.556640625,
+        "rho_raw": -14.977737108179525,
+        "rho_raw_p": 0.037109375,
+        "rho_feas": -14.927102390447105,
+        "fits_worse": false,
+        "sig_widen": true,
+        "sig_narrow": false,
+        "fit_confounded": false
+      }
+    ],
+    "c_claim_survives": true,
+    "c_clean_widening_cells": [
+      [
+        "bucket",
+        "kumaraswamy"
+      ],
+      [
+        "bucket",
+        "beta"
+      ],
+      [
+        "resops",
+        "logit_normal"
+      ],
+      [
+        "resops",
+        "trunc_gaussian"
+      ]
+    ],
+    "d_kumaraswamy_widening_datasets": {
+      "bucket": [
+        "kumaraswamy",
+        "beta"
+      ],
+      "resops": [
+        "logit_normal",
+        "trunc_gaussian"
+      ]
+    },
+    "e_spearman_dval_rho": {
+      "rho": 0.362406015037594,
+      "p": 0.1163446491875469,
+      "cells": 20
+    }
+  },
+  "R2_era5_intervals": {
+    "B": {
+      "mu": {
+        "seeds": 8,
+        "mean_diff": -0.008249260485172272,
+        "ci_lo": -0.01678591555886441,
+        "ci_hi": 0.00028739458851986983,
+        "rel_mean_pct": -3.5374976122345605,
+        "rel_ci_lo_pct": -7.198237504487503,
+        "rel_ci_hi_pct": 0.12324228001838185,
+        "largest_compatible_advantage_pct": 7.198237504487503
+      },
+      "A_0.05": {
+        "seeds": 8,
+        "mean_diff": 0.09174353815615177,
+        "ci_lo": 0.08320860071999454,
+        "ci_hi": 0.100278475592309,
+        "rel_mean_pct": 39.34201711155684,
+        "rel_ci_lo_pct": 35.68201378698647,
+        "rel_ci_hi_pct": 43.00202043612722,
+        "largest_compatible_advantage_pct": 0.0
+      },
+      "nu": {
+        "seeds": 8,
+        "mean_diff": 0.04174397401511668,
+        "ci_lo": 0.03320803929499885,
+        "ci_hi": 0.05027990873523451,
+        "rel_mean_pct": 14.74042653360957,
+        "rel_ci_lo_pct": 11.726259300944568,
+        "rel_ci_hi_pct": 17.754593766274574,
+        "largest_compatible_advantage_pct": 0.0
+      }
+    },
+    "C": {
+      "mu": {
+        "seeds": 8,
+        "mean_diff": 5.177594721317291e-05,
+        "ci_lo": -0.0054353858554779325,
+        "ci_hi": 0.005538937749904278,
+        "rel_mean_pct": 0.022202873817234892,
+        "rel_ci_lo_pct": -2.3308349299779874,
+        "rel_ci_hi_pct": 2.375240677612457,
+        "largest_compatible_advantage_pct": 2.3308349299779874
+      },
+      "A_0.05": {
+        "seeds": 8,
+        "mean_diff": 0.05005178786814213,
+        "ci_lo": 0.044564616730910195,
+        "ci_hi": 0.05553895900537406,
+        "rel_mean_pct": 21.4635094127381,
+        "rel_ci_lo_pct": 19.110467606048807,
+        "rel_ci_hi_pct": 23.816551219427396,
+        "largest_compatible_advantage_pct": 0.0
+      },
+      "nu": {
+        "seeds": 8,
+        "mean_diff": 5.324743688106537e-05,
+        "ci_lo": -0.0054364338525533604,
+        "ci_hi": 0.005542928726315491,
+        "rel_mean_pct": 0.0188024726913668,
+        "rel_ci_lo_pct": -1.9196867499814838,
+        "rel_ci_hi_pct": 1.9572916953642174,
+        "largest_compatible_advantage_pct": 1.9196867499814838
+      }
+    },
+    "E4": {
+      "mu": {
+        "seeds": 8,
+        "mean_diff": 0.08167446218430996,
+        "ci_lo": 0.04360133192495764,
+        "ci_hi": 0.11974759244366229,
+        "rel_mean_pct": 35.02413525150124,
+        "rel_ci_lo_pct": 18.697386008360862,
+        "rel_ci_hi_pct": 51.350884494641626,
+        "largest_compatible_advantage_pct": 0.0
+      },
+      "A_0.05": {
+        "seeds": 8,
+        "mean_diff": 0.08515146933495998,
+        "ci_lo": 0.04685286125584024,
+        "ci_hi": 0.12345007741407973,
+        "rel_mean_pct": 36.51516641911385,
+        "rel_ci_lo_pct": 20.091726417999123,
+        "rel_ci_hi_pct": 52.93860642022858,
+        "largest_compatible_advantage_pct": 0.0
+      },
+      "nu": {
+        "seeds": 8,
+        "mean_diff": 0.07979716174304485,
+        "ci_lo": 0.04143783706039501,
+        "ci_hi": 0.1181564864256947,
+        "rel_mean_pct": 28.177580788977142,
+        "rel_ci_lo_pct": 14.632324959747349,
+        "rel_ci_hi_pct": 41.72283661820694,
+        "largest_compatible_advantage_pct": 0.0
+      }
+    },
+    "E5": {
+      "mu": {
+        "seeds": 8,
+        "mean_diff": 0.0293758325278759,
+        "ci_lo": -0.009550843961985654,
+        "ci_hi": 0.06830250901773746,
+        "rel_mean_pct": 12.597121597935963,
+        "rel_ci_lo_pct": -4.095650485407549,
+        "rel_ci_hi_pct": 29.28989368127948,
+        "largest_compatible_advantage_pct": 4.095650485407549
+      },
+      "A_0.05": {
+        "seeds": 8,
+        "mean_diff": 0.03179315850138664,
+        "ci_lo": -0.007732179766778043,
+        "ci_hi": 0.07131849676955132,
+        "rel_mean_pct": 13.633733894839116,
+        "rel_ci_lo_pct": -3.315759941331819,
+        "rel_ci_hi_pct": 30.583227731010048,
+        "largest_compatible_advantage_pct": 3.315759941331819
+      },
+      "nu": {
+        "seeds": 8,
+        "mean_diff": 0.028841257840394978,
+        "ci_lo": -0.010103332824426506,
+        "ci_hi": 0.06778584850521646,
+        "rel_mean_pct": 10.18428293816206,
+        "rel_ci_lo_pct": -3.5676391325160877,
+        "rel_ci_hi_pct": 23.936205008840208,
+        "largest_compatible_advantage_pct": 3.5676391325160877
+      }
+    }
+  },
+  "R3_scale": {
+    "syn_full": {
+      "seeds": 10,
+      "boundary_share": 0.2885,
+      "boundary_width": 0.2103789985179901,
+      "interior_width": 0.2990371584892273
+    },
+    "syn_extreme": {
+      "seeds": 10,
+      "boundary_share": 0.6645,
+      "boundary_width": 0.1341276526451111,
+      "interior_width": 0.29809278547763823
+    },
+    "bucket": {
+      "seeds": 10,
+      "boundary_share": 0.4375,
+      "boundary_width": 0.2247424989938736,
+      "interior_width": 0.35932591259479524
+    },
+    "seaice": {
+      "seeds": 10,
+      "boundary_share": 0.848,
+      "boundary_width": 0.06996880918741226,
+      "interior_width": 0.6752759218215942
+    },
+    "resops": {
+      "seeds": 10,
+      "boundary_share": 0.0835,
+      "boundary_width": 0.05286211259663105,
+      "interior_width": 0.06512144766747952
+    }
+  }
+}

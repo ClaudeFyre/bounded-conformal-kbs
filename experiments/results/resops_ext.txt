@@ -1,0 +1,28 @@
+[m0 resops] model 1 seed 10 time 19s crps 0.017398392781615257 1: w_b=0.0998 cov=0.897 7: w_b=0.0997 cov=0.897 1b: w_b=0.0570 cov=0.900
+[m0 resops] model 1 seed 8 time 59s crps 0.012068727053701878 1: w_b=0.0408 cov=0.896 7: w_b=0.0408 cov=0.896 1b: w_b=0.0280 cov=0.893
+[m0 resops] model 1 seed 11 time 59s crps 0.011391788721084595 1: w_b=0.0472 cov=0.910 7: w_b=0.0472 cov=0.910 1b: w_b=0.0176 cov=0.910
+[m0 resops] model 1 seed 9 time 59s crps 0.011785238049924374 1: w_b=0.0417 cov=0.900 7: w_b=0.0417 cov=0.900 1b: w_b=0.0224 cov=0.909
+[m0 resops] model 1 seed 12 time 48s crps 0.012373474426567554 1: w_b=0.0502 cov=0.913 7: w_b=0.0502 cov=0.913 1b: w_b=0.0256 cov=0.908
+[m0 resops] model 1 seed 13 time 58s crps 0.012851416133344173 1: w_b=0.0496 cov=0.896 7: w_b=0.0496 cov=0.896 1b: w_b=0.0292 cov=0.901
+[m0 resops] model 1 seed 15 time 58s crps 0.012069175019860268 1: w_b=0.0526 cov=0.901 7: w_b=0.0526 cov=0.901 1b: w_b=0.0193 cov=0.888
+[m0 resops] model 1 seed 14 time 58s crps 0.011845558881759644 1: w_b=0.0492 cov=0.896 7: w_b=0.0492 cov=0.896 1b: w_b=0.0190 cov=0.898
+[m0 resops] model 3 seed 8 time 53s crps 0.01204129308462143 3: w_b=0.0261 cov=0.891
+[m0 resops] model 3 seed 10 time 52s crps 0.012591047212481499 3: w_b=0.0188 cov=0.905
+[m0 resops] model 3 seed 9 time 59s crps 0.011841334402561188 3: w_b=0.0228 cov=0.910
+[m0 resops] model 3 seed 11 time 59s crps 0.011428526602685452 3: w_b=0.0151 cov=0.908
+[m0 resops] model 3 seed 12 time 57s crps 0.012420897372066975 3: w_b=0.0207 cov=0.910
+[m0 resops] model 3 seed 14 time 12s crps 0.017997751012444496 3: w_b=0.0612 cov=0.900
+[m0 resops] model 3 seed 13 time 37s crps 0.012811296619474888 3: w_b=0.0264 cov=0.896
+[m0 resops] model 3 seed 15 time 33s crps 0.012078707106411457 3: w_b=0.0202 cov=0.894
+seed 8: A=0.0252/0.894 B=0.0243/0.894 D=0.0245/0.894
+seed 9: A=0.0190/0.909 B=0.0215/0.913 D=0.0214/0.913
+seed 10: A=0.0594/0.901 B=0.0176/0.903 D=0.0176/0.902
+seed 11: A=0.0132/0.905 B=0.0120/0.906 D=0.0118/0.906
+seed 12: A=0.0221/0.905 B=0.0218/0.907 D=0.0217/0.907
+seed 13: A=0.0248/0.896 B=0.0243/0.894 D=0.0240/0.894
+seed 14: A=0.0188/0.900 B=0.0600/0.902 D=0.0600/0.901
+seed 15: A=0.0202/0.894 B=0.0187/0.895 D=0.0187/0.895
+CONFIRMATORY (new seeds 8-15): D 0.0250 vs A 0.0253 (-1.5%), Wilcoxon p = 0.5469, n = 8
+secondary (seeds 0-15 combined): D 0.0246 vs A 0.0309 (-20.4%), Wilcoxon p = 0.0934, n = 16
+
+**NOT CONFIRMED -> close this branch**

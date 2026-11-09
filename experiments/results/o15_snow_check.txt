@@ -1,0 +1,10 @@
+days 1826, valid-unit fraction among land/sea grid-days 0.521; units 13651362 over 7509 grid points
+criterion 1: P(Y=0) 0.6166, P(Y=1) 0.3394 (both >= 0.05) -> True
+criterion 3: interior mass 0.044 (>= 0.2), median kNN 90% width 0.150 (>= 0.1) -> False
+criterion 4: grid-point-held-out AUC {'Y=0': 0.9995333249903795, 'Y=1': 0.9982707473782997} (>= 0.7) -> True
+criterion 5: 13651362 units over 7509 grid points -> True
+criterion 2: semantic snow-free / fully snow-covered states (selection caveat recorded in PLAN) -> True
+criterion 6: ESA CCI Snow terms, citation required, anonymous access -> True
+
+**Candidate 2 (Snow_cci CryoClim FSC): FAILS the O1.5 criteria**
+(interior value resolution: first distinct interior values [0.01 0.02 0.03 0.04 0.05])

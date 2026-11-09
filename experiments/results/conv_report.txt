@@ -1,0 +1,86 @@
+seaice seed 0 model 1 done
+seaice seed 0 model 3 done
+seaice seed 1 model 1 done
+seaice seed 1 model 3 done
+seaice seed 2 model 1 done
+seaice seed 2 model 3 done
+seaice seed 3 model 1 done
+seaice seed 3 model 3 done
+seaice seed 4 model 1 done
+seaice seed 4 model 3 done
+seaice seed 5 model 1 done
+seaice seed 5 model 3 done
+seaice seed 6 model 1 done
+seaice seed 6 model 3 done
+seaice seed 7 model 1 done
+seaice seed 7 model 3 done
+resops seed 0 model 1 done
+resops seed 0 model 3 done
+resops seed 1 model 1 done
+resops seed 1 model 3 done
+resops seed 2 model 1 done
+resops seed 2 model 3 done
+resops seed 3 model 1 done
+resops seed 3 model 3 done
+resops seed 4 model 1 done
+resops seed 4 model 3 done
+resops seed 5 model 1 done
+resops seed 5 model 3 done
+resops seed 6 model 1 done
+resops seed 6 model 3 done
+resops seed 7 model 1 done
+resops seed 7 model 3 done
+
+## seaice (obs grouping, eps = 0.05, mean over 8 seeds)
+
+| score | G | boundary width (Lebesgue) | span | pieces | atom rate | coverage | boundary cov |
+|---|---|---|---|---|---|---|---|
+| 1 | - | 0.07470 | | | | 0.9018 | 0.8994 |
+| 7 | - | 0.05717 | | | | 0.9018 | 0.8994 |
+| 1b | 200 | 0.03043 | 0.03043 | 1.00 | 0.000 | 0.9036 | 0.9005 |
+| 1b | 500 | 0.03127 | 0.03127 | 1.00 | 0.000 | 0.9028 | 0.8995 |
+| 1b | 1000 | 0.03168 | 0.03168 | 1.00 | 0.000 | 0.9026 | 0.8994 |
+| 1b | 2000 | 0.03191 | 0.03191 | 1.00 | 0.000 | 0.9026 | 0.8993 |
+
+1b: |W2000-W1000|/W2000 = 0.70% (pass); |cov2000-cov1000| = 0.0001 (pass)
+
+| 3 | 200 | 0.01378 | 0.01378 | 0.47 | 1.470 | 0.9006 | 0.8990 |
+| 3 | 500 | 0.01451 | 0.01451 | 0.47 | 1.474 | 0.9009 | 0.8992 |
+| 3 | 1000 | 0.01474 | 0.01474 | 0.47 | 1.474 | 0.9008 | 0.8991 |
+| 3 | 2000 | 0.01486 | 0.01486 | 0.47 | 1.475 | 0.9009 | 0.8992 |
+
+3: |W2000-W1000|/W2000 = 0.82% (pass); |cov2000-cov1000| = 0.0001 (pass)
+
+ranking at G=1000: 3 (0.0147) < 1b (0.0317) < 7 (0.0572) < 1 (0.0747)
+ranking at G=2000: 3 (0.0149) < 1b (0.0319) < 7 (0.0572) < 1 (0.0747)
+model 3 vs 1b: G=200: -54.7%, G=500: -53.6%, G=1000: -53.5%, G=2000: -53.4%
+model 3 vs 7 : G=200: -75.9%, G=500: -74.6%, G=1000: -74.2%, G=2000: -74.0%
+ranking stable for G >= 1000: True
+
+## resops (obs grouping, eps = 0.05, mean over 8 seeds)
+
+| score | G | boundary width (Lebesgue) | span | pieces | atom rate | coverage | boundary cov |
+|---|---|---|---|---|---|---|---|
+| 1 | - | 0.06579 | | | | 0.9050 | 0.9097 |
+| 7 | - | 0.06576 | | | | 0.9050 | 0.9097 |
+| 1b | 200 | 0.03784 | 0.03784 | 1.00 | 0.000 | 0.9043 | 0.9160 |
+| 1b | 500 | 0.03719 | 0.03719 | 1.00 | 0.000 | 0.9050 | 0.9124 |
+| 1b | 1000 | 0.03736 | 0.03736 | 1.00 | 0.000 | 0.9049 | 0.9124 |
+| 1b | 2000 | 0.03729 | 0.03729 | 1.00 | 0.000 | 0.9052 | 0.9152 |
+
+1b: |W2000-W1000|/W2000 = 0.16% (pass); |cov2000-cov1000| = 0.0004 (pass)
+
+| 3 | 200 | 0.02482 | 0.02482 | 1.00 | 2.000 | 0.9006 | 0.9022 |
+| 3 | 500 | 0.02357 | 0.02357 | 1.00 | 2.000 | 0.9009 | 0.8890 |
+| 3 | 1000 | 0.02382 | 0.02382 | 1.00 | 2.000 | 0.9006 | 0.8904 |
+| 3 | 2000 | 0.02406 | 0.02406 | 1.00 | 2.000 | 0.9009 | 0.8933 |
+
+3: |W2000-W1000|/W2000 = 0.98% (pass); |cov2000-cov1000| = 0.0004 (pass)
+
+ranking at G=1000: 3 (0.0238) < 1b (0.0374) < 7 (0.0658) < 1 (0.0658)
+ranking at G=2000: 3 (0.0241) < 1b (0.0373) < 7 (0.0658) < 1 (0.0658)
+model 3 vs 1b: G=200: -34.4%, G=500: -36.6%, G=1000: -36.2%, G=2000: -35.5%
+model 3 vs 7 : G=200: -62.3%, G=500: -64.2%, G=1000: -63.8%, G=2000: -63.4%
+ranking stable for G >= 1000: True
+
+**Convergence check: PASS**

@@ -1,0 +1,53 @@
+# Post hoc review checks (plan in scripts/review_checks.py)
+
+## R1 fit quality
+
+| dataset | family | dval | p | dylp | p | rho_raw | p | rho_feas | fits worse | widen | fit-confounded |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| syn_full | kumaraswamy | +0.189 | 0.002 | +0.045 | 0.002 | +4.4% | 0.002 | +4.4% | True | False | False |
+| syn_full | beta | -0.003 | 0.922 | +0.046 | 0.002 | +4.7% | 0.004 | +4.7% | False | False | False |
+| syn_full | logit_normal | +0.213 | 0.002 | +0.054 | 0.002 | +5.6% | 0.002 | +5.6% | True | False | False |
+| syn_full | trunc_gaussian | -0.449 | 0.002 | +0.020 | 0.105 | +2.6% | 0.002 | +2.6% | False | False | False |
+| syn_extreme | kumaraswamy | +0.253 | 0.002 | +0.095 | 0.002 | +4.7% | 0.002 | +4.7% | True | False | False |
+| syn_extreme | beta | +0.101 | 0.002 | +0.099 | 0.002 | +6.1% | 0.002 | +6.1% | True | False | False |
+| syn_extreme | logit_normal | +0.239 | 0.002 | +0.096 | 0.002 | +6.4% | 0.002 | +6.4% | True | False | False |
+| syn_extreme | trunc_gaussian | -0.666 | 0.002 | +0.080 | 0.002 | +3.5% | 0.002 | +3.5% | False | False | False |
+| bucket | kumaraswamy | -0.002 | 0.846 | -0.042 | 0.002 | -7.7% | 0.002 | -7.5% | False | True | False |
+| bucket | beta | -0.002 | 0.557 | -0.046 | 0.002 | -12.0% | 0.002 | -10.2% | False | True | False |
+| bucket | logit_normal | +0.113 | 0.002 | -0.038 | 0.002 | -11.6% | 0.002 | -9.5% | True | True | True |
+| bucket | trunc_gaussian | -0.377 | 0.002 | -0.016 | 0.010 | -1.6% | 0.084 | -2.2% | False | False | False |
+| seaice | kumaraswamy | +2.377 | 0.002 | -0.560 | 0.002 | +7.5% | 0.010 | -7.8% | True | False | False |
+| seaice | beta | +2.326 | 0.002 | -0.500 | 0.002 | +10.8% | 0.002 | -1.6% | True | False | False |
+| seaice | logit_normal | +2.431 | 0.002 | -0.486 | 0.002 | +12.7% | 0.002 | +1.5% | True | False | False |
+| seaice | trunc_gaussian | +1.858 | 0.002 | -0.697 | 0.002 | +10.1% | 0.010 | -11.2% | True | False | False |
+| resops | kumaraswamy | +5.533 | 0.002 | -0.449 | 0.002 | -102.6% | 0.002 | -102.6% | True | True | True |
+| resops | beta | +0.564 | 0.002 | -0.097 | 0.010 | -22.1% | 0.006 | -22.0% | True | True | True |
+| resops | logit_normal | +0.079 | 0.160 | -0.006 | 0.625 | -11.6% | 0.027 | -11.6% | False | True | False |
+| resops | trunc_gaussian | -0.027 | 0.625 | -0.032 | 0.557 | -15.0% | 0.037 | -14.9% | False | True | False |
+
+(c) claim survives: True; clean widening cells: [('bucket', 'kumaraswamy'), ('bucket', 'beta'), ('resops', 'logit_normal'), ('resops', 'trunc_gaussian')]
+(d) Kumaraswamy widening datasets -> families widening without worse fit: {'bucket': ['kumaraswamy', 'beta'], 'resops': ['logit_normal', 'trunc_gaussian']}
+(e) Spearman(dval, rho_raw) = 0.362, p = 0.116
+
+## R2 ERA5 differences to A (95% t-interval, relative to mean of A)
+
+B mu: -3.5% [-7.2%, +0.1%]  largest compatible advantage 7.2%  (n=8)
+B A_0.05: +39.3% [+35.7%, +43.0%]  largest compatible advantage 0.0%  (n=8)
+B nu: +14.7% [+11.7%, +17.8%]  largest compatible advantage 0.0%  (n=8)
+C mu: +0.0% [-2.3%, +2.4%]  largest compatible advantage 2.3%  (n=8)
+C A_0.05: +21.5% [+19.1%, +23.8%]  largest compatible advantage 0.0%  (n=8)
+C nu: +0.0% [-1.9%, +2.0%]  largest compatible advantage 1.9%  (n=8)
+E4 mu: +35.0% [+18.7%, +51.4%]  largest compatible advantage 0.0%  (n=8)
+E4 A_0.05: +36.5% [+20.1%, +52.9%]  largest compatible advantage 0.0%  (n=8)
+E4 nu: +28.2% [+14.6%, +41.7%]  largest compatible advantage 0.0%  (n=8)
+E5 mu: +12.6% [-4.1%, +29.3%]  largest compatible advantage 4.1%  (n=8)
+E5 A_0.05: +13.6% [-3.3%, +30.6%]  largest compatible advantage 3.3%  (n=8)
+E5 nu: +10.2% [-3.6%, +23.9%]  largest compatible advantage 3.6%  (n=8)
+
+## R3 scale (Gaussian main model)
+
+syn_full: boundary share 0.288, boundary width 0.2104, interior width 0.2990 (n=10)
+syn_extreme: boundary share 0.664, boundary width 0.1341, interior width 0.2981 (n=10)
+bucket: boundary share 0.438, boundary width 0.2247, interior width 0.3593 (n=10)
+seaice: boundary share 0.848, boundary width 0.0700, interior width 0.6753 (n=10)
+resops: boundary share 0.084, boundary width 0.0529, interior width 0.0651 (n=10)
